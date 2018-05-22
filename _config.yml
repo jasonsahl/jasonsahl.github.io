@@ -82,9 +82,9 @@ author:
   avatar           : "profile.png"
   bio              : "Assistant Research Professor interestd in infectious disease genomics"
   location         : "Flagstaff, Arizona, USA"
-  employer         :
+  employer         : "Northern Arizona University"
   googlescholar    : "https://scholar.google.com/citations?user=rWV_-ecAAAAJ&hl=en"
-  email            :
+  email            : "Jason.Sahl@nau.edu"
   uri              :
   bitbucket        :
   codepen          :
@@ -98,7 +98,7 @@ author:
   instagram        :
   lastfm           :
   linkedin         :
-  orcid            : #"http://orcid.org/yourorcidurl"
+  orcid            : #http://orcid.org/yourorcidurl
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
