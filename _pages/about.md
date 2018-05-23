@@ -11,5 +11,6 @@ redirect_from:
 {% include base_path %}
 
 ## Overview ##
-In my group, we incorporate both wet lab techniques and bioninformatics methods to better understand pathogen ecology \
-and bioinformatics.
+In my group, we incorporate both wet lab techniques and bioninformatics methods to better understand pathogen ecology,
+antimicrobial resistance, and pathogenesis. A list of current projects ongoing in the laboratory include:
+1. # Antimicrobial resistance in Acinetobacter baumannii #. 
