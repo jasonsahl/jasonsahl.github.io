@@ -11,9 +11,9 @@ redirect_from:
 
 Education
 ======
-* B.S. in Github, Github University, 2012
-* M.S. in Jekyll, Github University, 2014
-* Ph.D in Version Control Theory, Github University, 2018 (expected)
+* B.S. in Biology, University of Colorado, 1999
+* M.S. in Environmental Science and Engineering, Colorado School of Mines, 2005
+* Ph.D in Environmental Science and Engineering, Colorado School of Mines, 2009
 
 Work experience
 ======
