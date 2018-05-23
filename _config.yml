@@ -82,7 +82,8 @@ author:
   avatar           : "profile.png"
   bio              : "Assistant Professor interested in infectious disease genomics"
   location         : "Flagstaff, Arizona, USA"
-  employer         : "Northern Arizona University, Pathogen and Microbiome Institute"
+  employer         : "Northern Arizona University,"
+                      "Pathogen and Microbiome Institute"
   googlescholar    : "https://scholar.google.com/citations?user=rWV_-ecAAAAJ&hl=en"
   email            : "Jason.Sahl@nau.edu"
   uri              :
@@ -221,15 +222,6 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
   # _talks
   - scope:
       path: ""
