@@ -18,11 +18,12 @@ pathogenesis. A list of current projects ongoing in the laboratory include:
 
 1. **Antimicrobial resistance mechanism identification in Acinetobacter baumannii**.
 2. **Characterization of Escherichia coli in Urinary Tract Infections**.
-3.
+3. **
 
 ### Software
 
 My lab has developed or helped in the development of the following software applications:
 
 1. Phylomark. A method to identify phylogenetic markers from whole genome alignments. Although originally designed
-for whole genome
+...for whole genome alignments, but has now been adapted to work with SNP data from NASP. The software repository
+...is located [here](https://github.com/jasonsahl/Phylomark)
