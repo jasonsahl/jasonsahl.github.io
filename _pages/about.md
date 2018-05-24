@@ -10,7 +10,7 @@ redirect_from:
 
 {% include base_path %}
 
-![alt text](Sludge.png "The Sludge")
+![alt text](https://github.com/jasonsahl/jasonsahl.github.io/tree/master/images/Sludge.png "The Sludge")
 
 ### Overview
 
