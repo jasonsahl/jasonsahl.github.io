@@ -10,7 +10,7 @@ redirect_from:
 
 {% include base_path %}
 
-[logo]: https://github.com/jasonsahl/jasonsahl.github.io/tree/master/images/Sludge.png "The Sludge"
+[logo]: https://github.com/jasonsahl/jasonsahl.github.io/tree/master/images/Sludge.jpg "The Sludge"
 
 ### Overview
 
@@ -21,8 +21,10 @@ pathogenesis. A list of current projects ongoing in the laboratory include:
 1. *Antimicrobial resistance (AMR) mechanism identification in Acinetobacter baumannii*. A. baumannii has a highly plastic
  genome where AMR mechanisms are not broadly conserved. We are using a paired phylogenetic approach to identify novel
  mechanisms of resistance in this globally important AMR pathogen.  
-2. *Characterization of Escherichia coli in Urinary Tract Infections*.
-3. *Comparative genomics of Burkholderia pseudomallei*.
+2. *Characterization of Escherichia coli in Urinary Tract Infections (UTIs)*. UTIs are a major problem in the United
+States with most infections attributed to E. coli. We are using new Amplicon Sequencing methods to characterize E. coli 
+directly from urine, providing information on AMR and strain level identity that can be used for source attribution  
+3. *Comparative genomics of Burkholderia pseudomallei*.  
 4. *Development of Amplicon Sequencing projects for strain level resolution*.
 
 ### Software
