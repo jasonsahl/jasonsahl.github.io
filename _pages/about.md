@@ -10,7 +10,7 @@ redirect_from:
 
 {% include base_path %}
 
-# ![logo](https://github.com/jasonsahl/jasonsahl.github.io/tree/master/images/Sludge.jpg) Sludge Lab
+# ![Sludge logo](https://github.com/jasonsahl/jasonsahl.github.io/tree/master/images/Sludge.png) Sludge Lab
 
 ### Overview
 
@@ -31,7 +31,9 @@ directly from urine, providing information on AMR and strain level identity that
 commonplace in most research laboratories, cheap and rapid assays that provide maximum resolution are still needed. We are
  investigating methods to provide strain level resolution from multiple amplicons in a single PCR reaction, which will 
  provide rapid results at a reasonable price.  
-5. *Source tracking of Clostridioides difficile*.  
+5. *Source tracking of Clostridioides difficile*. C. difficile is regarded as the most common hospital acquired pathogen 
+and is associated with serious disease. We are sequencing strains from the clinic, dogs, and the environment in order to
+ help identify how patients are being infected.  
 
 ### Software
 
