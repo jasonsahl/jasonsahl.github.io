@@ -176,7 +176,8 @@ collections:
     output: true
     permalink: /:collection/:path/
   portfolio:
-    output: true
+    #changed
+    output: false
     permalink: /:collection/:path/
   talks:
     output: true
