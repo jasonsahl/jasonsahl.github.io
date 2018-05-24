@@ -10,7 +10,7 @@ redirect_from:
 
 {% include base_path %}
 
-![alt test](Sludge.png "The Sludge")
+![alt text](Sludge.png "The Sludge")
 
 ### Overview
 
