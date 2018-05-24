@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Sahl Lab for Understanding Infectious Disease GEnomics [SLUDGE](Sludge.png)"
+title: "Sahl Lab for Understanding Infectious Disease GEnomics" ![SLUDGE](Sludge.png "The Sludge")
 excerpt: "About me"
 author_profile: true
 redirect_from: 
