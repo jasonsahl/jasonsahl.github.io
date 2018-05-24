@@ -16,9 +16,10 @@ My lab is located in Flagstaff, Arizona, USA, at 7000ft (2137m) above sea level.
 lab techniques and bioninformatics methods to better understand pathogen ecology, antimicrobial resistance, and 
 pathogenesis. A list of current projects ongoing in the laboratory include:
 
-**1**. *Antimicrobial resistance mechanism identification in Acinetobacter baumannii*.
-2. **Characterization of Escherichia coli in Urinary Tract Infections**.
-3. **
+1. *Antimicrobial resistance mechanism identification in Acinetobacter baumannii*.
+2. *Characterization of Escherichia coli in Urinary Tract Infections*.
+3. *Comparative genomics of Burkholderia pseudomallei*.
+4. *Development of Amplicon Sequencing projects for strain level resolution*.
 
 ### Software
 
