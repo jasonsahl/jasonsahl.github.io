@@ -10,7 +10,8 @@ redirect_from:
 
 {% include base_path %}
 
-# ![Sludge logo](https://github.com/jasonsahl/jasonsahl.github.io/tree/master/images/Sludge.png) Sludge Lab
+![Sludge logo](https://github.com/jasonsahl/jasonsahl.github.io/tree/master/images/Sludge.png) Sludge Lab  
+
 
 ### Overview
 
