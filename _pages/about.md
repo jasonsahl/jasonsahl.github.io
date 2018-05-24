@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Sahl Lab for Understanding Infectious Disease GEnomics (SLUDGE)"
+title: "Sahl Lab for Understanding Infectious Disease GEnomics [SLUDGE](Sludge.png)"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -25,5 +25,10 @@ pathogenesis. A list of current projects ongoing in the laboratory include:
 My lab has developed or helped in the development of the following software applications:
 
 1. Phylomark. A method to identify phylogenetic markers from whole genome alignments. Although originally designed
-...for whole genome alignments, but has now been adapted to work with SNP data from NASP. The software repository
-...is located [here](https://github.com/jasonsahl/Phylomark)
+for whole genome alignments, but has now been adapted to work with SNP data from NASP. The software repository
+is located [here](https://github.com/jasonsahl/Phylomark). The goal is to find good phylogenetic markers that
+recapitulate the core genome phylogeny.  
+2. LS-BSR. A method to compare the gene content between bacterial genomes. A  link to the paper is [here](https://peerj.com/articles/332/)
+The software repository is located [here](https://github.com/jasonsahl/LS-BSR)  
+3. NASP. 
+4. WG-FAST.  
