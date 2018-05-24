@@ -10,6 +10,8 @@ redirect_from:
 
 {% include base_path %}
 
+Sludge lab:
+![alt text][logo]
 [logo]: https://github.com/jasonsahl/jasonsahl.github.io/tree/master/images/Sludge.jpg "The Sludge"
 
 ### Overview
@@ -24,8 +26,14 @@ pathogenesis. A list of current projects ongoing in the laboratory include:
 2. *Characterization of Escherichia coli in Urinary Tract Infections (UTIs)*. UTIs are a major problem in the United
 States with most infections attributed to E. coli. We are using new Amplicon Sequencing methods to characterize E. coli 
 directly from urine, providing information on AMR and strain level identity that can be used for source attribution  
-3. *Comparative genomics of Burkholderia pseudomallei*.  
-4. *Development of Amplicon Sequencing projects for strain level resolution*.
+3. *Comparative genomics of Burkholderia pseudomallei*. We have published papers on the identification of diagnostic targets
+ in B. pseudomallei using comparative genomics []. We are also interested in genotype/phenotype relationships in B. pseudomallei
+ using genome wide association studies (GWAS) as well as gene knock out experiments  
+4. *Development of Amplicon Sequencing projects for strain level resolution*. While high throughput sequencing is becoming 
+commonplace in most research laboratories, cheap and rapid assays that provide maximum resolution are still needed. We are
+ investigating methods to provide strain level resolution from multiple amplicons in a single PCR reaction, which will 
+ provide rapid results at a reasonable price.  
+5. *Source tracking of Clostridioides difficile*.  
 
 ### Software
 
