@@ -175,10 +175,10 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  portfolio:
+#  portfolio:
     #changed
-    output: false
-    permalink: /:collection/:path/
+#    output: false
+#    permalink: /:collection/:path/
   talks:
     output: true
     permalink: /:collection/:path/
