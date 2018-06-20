@@ -10,7 +10,7 @@ redirect_from:
 
 {% include base_path %}
 
-![Sludge logo](https://github.com/jasonsahl/jasonsahl.github.io/tree/master/images/Sludge.png) Sludge Lab  
+![Sludge logo](https://github.com/jasonsahl/jasonsahl.github.io/tree/master/images/Sludge.png)
 
 
 ### Overview
@@ -50,4 +50,13 @@ recapitulate the core genome phylogeny.
   The software repository is located [here](https://github.com/TGenNorth/NASP)  
 4. *WG-FAST*. A method to place isolates with partial SNP genotypes into a reference phylogeny. A link to the paper is [here](https://genomemedicine.biomedcentral.com/articles/10.1186/s13073-015-0176-9).
   The software repository is located [here](https://github.com/jasonsahl/wgfast)  
-5. *UGAP*.  
+5. *UGAP*. A wrapper to run SPAdes, polish the assembly with PILON, and report stats that may be useful for identifying
+potential contaminants. The software repository is located [here]().
+
+### People  
+
+Current members of my laboratory include:  
+
+1. Chase Williamson, Ph.D. Chase is a Research Associate and works on various bioinformatics projects and has published multiple papers, primarily
+on Clostridium botulinum.  
+2. Adam Vazquez. Adam is a Research Specialist
