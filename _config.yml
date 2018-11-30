@@ -7,7 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
+cover                    : "/assets/test.png"
 title                    : "Jason Sahl, Ph.D"
+email                    : jason.sahl@nau.edu
 title_separator          : "-"
 name                     : &name "Jason Sahl"
 description              : &description "Infectious disease genomics and algorithm development"
