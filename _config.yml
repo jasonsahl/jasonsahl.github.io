@@ -52,6 +52,11 @@ staticman:
 atom_feed:
   path                   : # blank (default) uses feed.xml
 
+markdown: kramdown
+plugins: [jekyll-paginate]
+paginate: 2
+paginate_path: "/page:num/"
+
 # SEO Related
 google_site_verification :
 bing_site_verification   :
@@ -122,6 +127,7 @@ include:
   - .htaccess
   - _pages
   - files
+  - assets
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
