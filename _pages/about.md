@@ -10,9 +10,6 @@ redirect_from:
 
 {% include base_path %}
 
-![Sludge logo](https://github.com/jasonsahl/jasonsahl.github.io/tree/master/images/Sludge.png)
-
-
 ### Overview
 
 My lab is located in Flagstaff, Arizona, USA, at 7000ft (2137m) above sea level. In my group, we incorporate both wet
@@ -59,4 +56,5 @@ Current members of my laboratory include:
 
 1. Chase Williamson, Ph.D. Chase is a Research Associate and works on various bioinformatics projects and has published multiple papers, primarily
 on Clostridium botulinum.  
-2. Adam Vazquez. Adam is a Research Specialist
+2. Adam Vazquez. Adam is a Research Specialist who works in the laboratory, but also performs data analyses on all active projects.  
+3. Chandler Roe.
