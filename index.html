@@ -24,7 +24,7 @@
     .brand h1{font-size:1.25rem;margin:0}
     .nav a{padding:10px 14px;border-radius:12px;}
     .nav .links{display:flex;flex-wrap:wrap;gap:6px}
-    .btn{display:inline-flex;align-items:center;gap:8px;background:var(--panel);padding:10px 14px;border-radius:12px;border:1px solid rgba(255,255,255,.08);box-shadow:var(--shadow)}
+    .btn{display:inline-flex;align-items:center;gap:8px;background:var(--panel);padding:10px 14px;border-radius:12px;border:1px solid rgba(255,255,255,.08);box-shadow:var(--shadow);cursor:pointer}
     .hero{display:grid;grid-template-columns:1.25fr .75fr;gap:22px;align-items:center;margin-top:26px}
     .card{background:linear-gradient(180deg,rgba(255,255,255,.04),rgba(255,255,255,.02));border:1px solid rgba(255,255,255,.08);border-radius:var(--radius);box-shadow:var(--shadow)}
     .hero .intro{padding:28px}
@@ -84,7 +84,7 @@
         </div>
         <div style="margin-top:16px;display:flex;gap:10px;flex-wrap:wrap">
           <a class="btn" href="mailto:jason.sahl@nau.edu">Email</a>
-          <a class="btn" href="https://scholar.google.com/" target="_blank" rel="noopener">Google Scholar</a>
+          <a class="btn" href="https://scholar.google.com/citations?user=rWV_-ecAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
           <a class="btn" href="https://www.scopus.com/authid/detail.uri?authorId=16175997500" target="_blank" rel="noopener">Scopus</a>
           <a class="btn" href="https://orcid.org/0000-0002-2497-0138" target="_blank" rel="noopener">ORCID</a>
           <a class="btn" href="https://github.com/jasonsahl" target="_blank" rel="noopener">GitHub</a>
@@ -108,6 +108,8 @@
       <div class="span-8 card panel">
         <h3 class="section-title" id="publications">Selected Publications</h3>
         <div id="pub-list">Loading publications...</div>
+        <button id="see-more" class="btn" style="margin-top:12px;display:none">See more</button>
+        <p style="margin-top:12px;color:#b7c4e6">Full list available on <a href="https://scholar.google.com/citations?user=rWV_-ecAAAAJ&hl=en" target="_blank">Google Scholar</a></p>
       </div>
       <aside class="span-4 aside">
         <div class="card box">
@@ -207,19 +209,43 @@
       .then(res => res.json())
       .then(pubs => {
         const container = document.getElementById('pub-list');
+        const seeMoreBtn = document.getElementById('see-more');
         container.innerHTML = '';
-        pubs.sort((a, b) => b.year - a.year);
-        pubs.forEach(pub => {
-          const div = document.createElement('div');
-          div.className = 'pub';
-          div.innerHTML = `
-            <div>
-              <strong>${pub.title}</strong><br/>
-              <span class="meta">${pub.authors} (${pub.year}). <em>${pub.journal}</em>. 
-              <a href="${pub.link}" target="_blank">doi</a></span>
-            </div>`;
-          container.appendChild(div);
-        });
+        pubs.sort((a, b) => (b.year || 0) - (a.year || 0));
+        let showingAll = false;
+
+        function render(limit = 5) {
+          container.innerHTML = '';
+          pubs.slice(0, limit).forEach(pub => {
+            const div = document.createElement('div');
+            div.className = 'pub';
+            div.innerHTML = `
+              <div>
+                <strong>${pub.title}</strong><br/>
+                <span class="meta">${pub.authors} ${pub.year ? '('+pub.year+')' : ''}. <em>${pub.journal}</em>. 
+                ${pub.link ? `<a href="${pub.link}" target="_blank">doi</a>` : ''}</span>
+              </div>`;
+            container.appendChild(div);
+          });
+        }
+
+        // Initial render with 5
+        render(5);
+
+        if (pubs.length > 5) {
+          seeMoreBtn.style.display = 'inline-flex';
+          seeMoreBtn.addEventListener('click', () => {
+            if (showingAll) {
+              render(5);
+              seeMoreBtn.textContent = 'See more';
+              showingAll = false;
+            } else {
+              render(pubs.length);
+              seeMoreBtn.textContent = 'See less';
+              showingAll = true;
+            }
+          });
+        }
       });
   </script>
 </body>
